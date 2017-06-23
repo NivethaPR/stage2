@@ -3,14 +3,13 @@ import java.util.Scanner;
 public class PrimeNumbers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		int num1, num2;
 		System.out.println("Please enter the first number");
-		num1 = sc.nextInt();
+		num1 = s.nextInt();
 		System.out.println("Please enter the Second number");
-		num2 = sc.nextInt();
+		num2 = s.nextInt();
 		System.out.println("Prime number: ");
 		for (int i=num1; i <= num2; i++ ){
 		int j;
